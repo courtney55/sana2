@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -24,4 +25,14 @@ body {
 
 .navbar {
   background: image_url('gray_sand.png');
+}
+
+.navbar-inverse .navbar-brand {
+  color: #62A6E1;
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size:40px;
+  font-weight: bold;
+  padding:0;
+  margin-top:-10px;
+  margin-bottom:-10px;
 }
