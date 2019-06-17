@@ -2,6 +2,9 @@
   <h1><%= @place.name %></h1>
   <i><%= @place.address %></i>
   <br/><br/>
+  <% if @place.image_url %>
+    <%= image_tag @place.image_url, class: 'img-fluid' %>
+  <% end %>
   <p><%= @place.description %></p>
 
 
