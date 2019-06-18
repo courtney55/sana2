@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import "font-awesome";
-@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Raleway&display=swap');
+
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -21,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: image_url('fishnets-and-hearts.png');
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
@@ -88,4 +89,28 @@ blockquote p {
   width: 100%;
   position: absolute;
   left: 0;
+
 }
+
+.pagination { 
+  padding: 3px; margin: 3px; 
+} 
+
+.pagination a { 
+  padding: 2px 5px 2px 5px; margin: 2px; border: 1px solid #aaaadd; text-decoration: none; color: #000099; 
+} 
+
+.pagination a:hover, 
+.pagination a:active { 
+  border: 1px solid #000099; color: #000; 
+} 
+
+.pagination span.current { 
+  padding: 2px 5px 2px 5px; margin: 2px; border: 1px solid #000099; font-weight: bold; background-color: #000099; color: #FFF; 
+} 
+
+.pagination span.disabled { 
+  padding: 2px 5px 2px 5px; margin: 2px; border: 1px solid #eee; color: #ddd;
+}
+
+
