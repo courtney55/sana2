@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sana
 
-Things you may want to cover:
+Sana can be used to search for bars with live music in Chicago. Users can create an account and write reviews. 
 
-* Ruby version
+Ruby version
+2.5.3
 
-* System dependencies
+Try it now
 
-* Configuration
+Go to https://sana2-courtney-fink.herokuapp.com/ to explore or create an account. 
 
-* Database creation
+Tools Used
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-Bootstrap
+-Devise
+-Geocoder
+-Figaro
+-Heroku
